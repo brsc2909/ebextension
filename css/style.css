@@ -1,8 +1,14 @@
-body {
-	min-width: 350px;
+#popup{
+	min-width: 370px;
+	margin: 0px;
+	padding: 0px;
 }
+
+
 .header{
+	max-height: 50px;
 	border: 1xp;
+	margin-bottom: 5px;
 }
 .eventButton{
 	min-width: 250px;
@@ -15,10 +21,10 @@ body {
 .eventInfo {
 	text-align: left;
 	float: left;
-	width: 180px;
+	width: 160px;
 }
 .eventPic {
-	text-align: left;
+	text-align: right;
 	float: right;
 	width: 120px;
 }

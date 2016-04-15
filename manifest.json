@@ -21,7 +21,14 @@
 		"16": "icons/icon16.png"
 
 	},
+	"background": {
+	    "persistent": true,
+	    "script": ["background.js"],
+	    "page": "background.html"
+  	},
+
 	"permissions":[
+	"geolocation",
 	"<all_urls>",
     "activeTab",
     "https://www.eventbriteapi.com/*",
